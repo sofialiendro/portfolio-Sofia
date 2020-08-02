@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TP-1.css">
+    <title>Portfolio de Sofía</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/quote.css">
+    <link rel="stylesheet" href="styles/skills.css">
+    <link rel="stylesheet" href="styles/projects.css">
+
+  </head>
+
+  <body data-gr-c-s-loaded="true">
+
+    <!-- Comienzo del Header -->
+    <header>
+      <div class="column menu-icon-container">
+        <nav class="nav-header">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">HOLA</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">CONOCIMIENTOS</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">PROYECTOS</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link selected">CONTACTO</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button type="button" class="menu-icon">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+    <!-- Fin del Header -->
+
+    <!-- Comienzo de sección Sobre mí -->
+    <section class="section about-section" id="about">
+      <div class="column main-content">
+        <div class="about-info">
+          <p class="greeting name">¡Hola! Soy</p>
+          <h1 class="about-name">Sofía Liendro</h1>
+          <p class="about-description">
+            Desarrolladora, traductora, MBA y fan de los animales
+          </p>
+          <a href="#projects" class="button">LO QUE HAGO</a>
+        </div>
+        <img src="https://frontend-proyecto-portfolio.adaitw.org/images/software-engineer.svg" alt="" class="about-img">
+      </div>
+    </section>
+    <!-- Fin de la sección Sobre mí -->
+
+    <!-- Comienzo de la sección de Habilidades -->
+    <section class="section skills-section" id="skills">
+      <div class="column content">
+        <h2 class="section-title">Mis conoci<wbr>mientos</h2>
+        <p class="skills-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque
+          neque molestias consequuntur vel ab quas architecto.
+        </p>
+        <div class="grid skills-grid">
+          <div class="skill grid-item">
+            <i class="devicon-html5-plain colored skill-icon"></i>
+            <p class="skill-title">HTML 5</p>
+          </div>
+          <div class="skill grid-item">
+            <i class="devicon-css3-plain colored skill-icon"></i>
+            <p class="skill-title">CSS 3</p>
+          </div>
+          <div class="skill grid-item">
+            <i class="devicon-sass-plain colored skill-icon"></i>
+            <p class="skill-title">Sass</p>
+          </div>
+          <div class="skill grid-item">
+            <i class="devicon-javascript-plain colored skill-icon"></i>
+            <p class="skill-title">JavaScript</p>
+          </div>
+          <div class="skill grid-item">
+            <i class="devicon-react-plain colored skill-icon"></i>
+            <p class="skill-title">React</p>
+          </div>
+          <div class="skill grid-item">
+            <i class="devicon-git-plain colored skill-icon"></i>
+            <p class="skill-title">GIT</p>
+          </div>
+        </div>
+      </div>  
+    </section>
+    <!-- Fin de la sección de Habilidades -->
+
+    <!-- Comienzo de la sección de Cita -->
+    <section class="section quote-section">
+      <div class="column content">
+        <i class="fas fa-quote-right quote-icon"></i>
+        <blockquote>
+          <p class="quote">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+            quaerat aspernatur laboriosam doloremque iste perspiciatis veniam
+            culpa beatae magni quo natus nostrum, laudantium exercitationem sit
+            minima aut totam praesentium aliquam.
+          </p>
+        </blockquote>
+        <h2 class="quote-author">Someone</h2>
+      </div>
+    </section>
+    <!-- Fin de la sección de Cita -->
+    
+    <!-- Comienzo de la sección de Proyectos -->
+    <section class="section project-section" id="projects">
+      <div class="column content">
+        <h2 class="section-title">Mis proyectos</h2>
+        <div class="project-filters">
+          <button type="button" class="project-filter selected">Todos</button>
+          <button type="button" class="project-filter">HTML/CSS</button>
+          <button type="button" class="project-filter">JavaScript</button>
+          <button type="button" class="project-filter">React</button>
+        </div>
+        
+        <div class="grid projects">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project">
+            <figure>
+              <img src="images/Screen Shot 2020-07-12 at 14.31.06.png" alt="" class="project-thumb">
+              <figcaption class="project-name">Portfolio</figcaption>
+            </figure>
+          </a>
+
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project">
+            <figure>
+              <img src="https://frontend-proyecto-portfolio.adaitw.org/images/undraw_shopping_app_flsj.png" alt="" class="project-thumb">
+              <figcaption class="project-name">Tienda</figcaption>
+            </figure>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project">
+            <figure>
+              <img src="https://frontend-proyecto-portfolio.adaitw.org/images/undraw_old_day_6x25.png" alt="" class="project-thumb">
+              <figcaption class="project-name">Juego de la memoria</figcaption>
+            </figure>
+          </a>
+
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project">
+            <figure>
+              <img src="https://frontend-proyecto-portfolio.adaitw.org/images/undraw_wallet_aym5.png" alt="" class="project-thumb">
+              <figcaption class="project-name">
+                Controlador de gastos
+              </figcaption>
+            </figure>
+          </a>
+
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project">
+            <figure>
+              <img src="https://frontend-proyecto-portfolio.adaitw.org/images/undraw_calendar_dutt.png" alt="" class="project-thumb">
+              <figcaption class="project-name">
+                Administrador de reuniones
+              </figcaption>
+            </figure>
+          </a>
+
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project">
+            <figure>
+              <img src="https://frontend-proyecto-portfolio.adaitw.org/images/undraw_to_do_list_a49b.png" alt="" class="project-thumb">
+              <figcaption class="project-name">Todo app</figcaption>
+            </figure>
+          </a>
+
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project">
+            <figure>
+              <img src="https://frontend-proyecto-portfolio.adaitw.org/images/undraw_movie_night_fldd.png" alt="" class="project-thumb">
+              <figcaption class="project-name">
+                Buscador de películas
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Fin de la sección de Proyectos -->
+    
+    <!-- Comienzo del Footer -->
+    <footer>
+      <!-- Comienzo de Navegación del Footer -->
+      <nav class="footer-nav">
+        <ul class="footer-nav-menu">
+          <li class="footer-nav-item">
+            <a href="#about" class="footer-nav-link">HOLA</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#skills" class="footer-nav-link">CONOCIMIENTOS</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#projects" class="footer-nav-link">PROYECTOS</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#contact" class="footer-nav-link">CONTACTO</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Fin de Navegación del Footer -->
+
+      <!-- Comienzo de sección de Redes Sociales -->
+      <ul class="footer-social-links">
+        <li class="footer-social-item">
+          <a href="" class="footer-social-link github-link">
+            <i class="fab fa-github-alt footer-social-icon"></i></a>
+        </li>
+        <li class="footer-social-item">
+          <a href="" class="footer-social-link linkedin-link">
+            <i class="fab fa-linkedin-in footer-social-icon"></i></a>
+        </li>
+        <li class="footer-social-item">
+          <a href="" class="footer-social-link email-link">
+            <i class="fas fa-envelope footer-social-icon"></i></a>
+        </li>
+      </ul>
+      Hecho con ❤️ por Sofía
+      <!-- Fin de sección de Redes Sociales -->
+    </footer>
+    <!-- Fin del Footer -->
+
+  </body>
+</html>
