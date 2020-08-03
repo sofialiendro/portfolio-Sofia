@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@900&family=Overlock&family=Quicksand&family=Thasadith:wght@700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -45,6 +51,7 @@ div {
 }
 
 .nav-menu {
+  font-family: 'Quicksand';
   display: flex;
   margin: 0;
 }
@@ -264,6 +271,9 @@ h2, .text--xl {
 
 .skills-description {
   max-width: 400px;
+  font-family: 'Quicksand';
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .skills-grid {
@@ -313,7 +323,8 @@ h2, .text--xl {
 
 .skill-title {
   font-size: 1.25em;
-  font-weight: 700;
+  font-weight: 900;
+  font-family: 'Quicksand';
 }
 
 .devicon-css3-plain-wordmark.colored, .devicon-css3-plain.colored {
@@ -381,6 +392,7 @@ blockquote {
 .quote {
   font-size: 1.2rem;
   max-width: 800px;
+  font-family: 'Quicksand';
 }
 
 .quote-author {
@@ -396,11 +408,11 @@ blockquote {
 }
 
 .project-filter {
-  font-size: 1em;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  font-family: 'Quicksand';
   padding: 15px 40px;
   border-radius: 100px;
-  font-weight: 500;
+  font-weight: 570;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -441,6 +453,8 @@ figcaption {
 .project-name {
   font-weight: 600;
   margin-bottom: 20px;
+  font-family: 'Quicksand';
+  font-size: 17px;
 }
 
 footer {
@@ -451,6 +465,7 @@ footer {
   background-color:#FB3570;
   color: white;
   padding: 80px 20px 60px;
+  font-family: 'Quicksand';
 }
 
 .footer-nav-menu {
