@@ -8,7 +8,7 @@ html {
   box-sizing: border-box;
 }
 
-meta, title, link, head {
+meta, title, link, head, .menu-icon {
   display: none;
 }
 
@@ -32,9 +32,6 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
-  top: 0;
-  left: 0;
-  z-index: 1;
 }
 
 .column {
@@ -51,6 +48,7 @@ div {
 }
 
 .nav-menu {
+  font-size: 1;
   font-family: 'Quicksand';
   display: flex;
   margin: 0;
@@ -101,10 +99,6 @@ li {
   text-align: -webkit-match-parent;
 }
 
-.menu-icon {
-  display: none;
-}
-
 button {
   border: 0;
   background-color: transparent;
@@ -145,6 +139,7 @@ button {
 .about-section {
   min-height: calc(100vh - 90px);
 }
+
 .section {
   display: flex;
   justify-content: center;
@@ -195,7 +190,7 @@ p {
   color: #FB3570;
 }
 
-h1, .text--xxl {
+h1 {
   font-size: 60px;
   font-weight: 900;
   margin-inline-start: 0px;
@@ -211,8 +206,9 @@ h1, h2, h3, h4, form legend {
 
 .about-description {
   color: #8a8fa3;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 40px;
+  font-family: 'Quicksand';
 }
 
 .button {
@@ -224,10 +220,8 @@ h1, h2, h3, h4, form legend {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-a:-webkit-any-link {
-  cursor: pointer;
+  font-family: 'Quicksand';
+  font-size: 18px;
 }
 
 .about-info {
@@ -439,11 +433,7 @@ blockquote {
 }
 
 figure {
-  margin: 0;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
+  margin: 10px;
 }
 
 figcaption {
