@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@900&family=Overlock&family=Quicksand&family=Thasadith:wght@700&display=swap');
 
 html {
@@ -34,35 +35,36 @@ header {
   justify-content: center;
 }
 
-.column {
-  width: 100%
+.columna {
+  width: 100%;
+  max-width: 1100px;
 }
 
 div {
   display: block;
 }
 
-.nav-header {
+.header-navegación {
   display: flex;
   justify-content: flex-end;
 }
 
-.nav-menu {
+.menu-navegación {
   font-size: 1;
   font-family: 'Quicksand';
   display: flex;
   margin: 0;
 }
 
-.nav-item, .footer-nav-item {
+.item-navegación, .footer-nav-item {
   margin: 0 15px;
 }
 
-.nav-link, .footer-nav-link {
+.link-navegación, .footer-nav-link {
   line-height: 2.5;
 }
 
-.selected {
+.botón-coloreado {
   background-color:#FB3570;
   color: white;
   padding: 0 30px;
@@ -136,30 +138,27 @@ button {
   line-height: 1;
 }
 
-.about-section {
+.sección-sobre-mí {
   min-height: calc(100vh - 90px);
 }
 
-.section {
+.sección {
   display: flex;
   justify-content: center;
   padding: 110px 40px 130px;
   text-align: center;
 }
 
-.main-content {
+.contenido-principal {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
-.column {
-  width: 100%;
-  max-width: 1100px;
-}
 
-.about-info {
+
+.información-sobre-mí {
   width: 100%;
   max-width: 500px;
   display: flex;
@@ -168,8 +167,8 @@ button {
   text-align: left;
 }
 
-.greeting {
-  font-size: 30px;
+.saludo {
+  font-size: 40px;
   margin-top: 0;
   margin-bottom: 5px;
   font-weight: 800;
@@ -184,10 +183,13 @@ p {
   margin-inline-end: 0px;
 }
 
-.about-name {
+.mi-nombre {
   margin-top: 0;
   margin-bottom: 5px;
   color: #FB3570;
+  font-family: 'Dancing Script';
+  font-weight: 900;
+  font-size: 85px;
 }
 
 h1 {
@@ -204,14 +206,14 @@ h1, h2, h3, h4, form legend {
   line-height: 1.2;
 }
 
-.about-description {
-  color: #8a8fa3;
+.descripción-sobre-mí {
+  color: #7a7d85;
   font-size: 18px;
   margin-bottom: 40px;
   font-family: 'Quicksand';
 }
 
-.button {
+.botón {
   background-color: #FB3570;
   color: white;
   padding: 15px 40px;
@@ -239,11 +241,11 @@ img {
   display: flex;
 }
 
-.skills-section {
+.sección-habilidades {
   background-color: #f6f7fb;
 }
 
-.content {
+.contenido {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -263,24 +265,24 @@ h2, .text--xl {
   font-weight: 900;
 }
 
-.skills-description {
+.descripción-habilidades {
   max-width: 400px;
   font-family: 'Quicksand';
   font-weight: 400;
   font-size: 18px;
 }
 
-.skills-grid {
+.grilla-habilidades {
   justify-content: center;
 }
 
-.grid {
+.grilla {
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
 }
 
-.skill {
+.habilidad {
   color: #2e2e31;
   background-color: #fff;
   border: 1px solid #dddfe5;
@@ -290,7 +292,7 @@ h2, .text--xl {
   padding: 30px;
 }
 
-.skill-icon {
+.ícono-habilidad {
   font-size: 4.71em;
   margin-top: 24px;
   margin-bottom: 20px;
@@ -311,17 +313,17 @@ h2, .text--xl {
   content: "";
 }
 
-.devicon-html5-plain-wordmark.colored, .devicon-html5-plain.colored {
+.devicon-html5-plain-wordmark.color, .devicon-html5-plain.color {
   color: rgb(229, 77, 38);
 }
 
-.skill-title {
+.título-habilidad {
   font-size: 1.25em;
   font-weight: 900;
   font-family: 'Quicksand';
 }
 
-.devicon-css3-plain-wordmark.colored, .devicon-css3-plain.colored {
+.devicon-css3-plain-wordmark.color, .devicon-css3-plain.color {
   color: rgb(61, 143, 198);
 }
 
@@ -329,7 +331,7 @@ h2, .text--xl {
   content: "";
 }
 
-.devicon-sass-original.colored, .devicon-sass-plain-wordmark.colored, .devicon-sass-plain.colored {
+.devicon-sass-original.color, .devicon-sass-plain-wordmark.color, .devicon-sass-plain.color {
   color: rgb(204, 102, 153);
 }
 
@@ -337,7 +339,7 @@ h2, .text--xl {
   content: "";
 }
 
-.devicon-javascript-plain.colored {
+.devicon-javascript-plain.color {
   color: rgb(240, 219, 79);
 }
 
@@ -345,7 +347,7 @@ h2, .text--xl {
   content: "";
 }
 
-.devicon-react-original-wordmark.colored, .devicon-react-original.colored, .devicon-react-plain-wordmark.colored, .devicon-react-plain.colored {
+.devicon-react-original-wordmark.color, .devicon-react-original.color, .devicon-react-plain-wordmark.color, .devicon-react-plain.color {
   color: rgb(97, 218, 251);
 }
 
@@ -353,7 +355,7 @@ h2, .text--xl {
   content: "";
 }
 
-.devicon-git-plain-wordmark.colored, .devicon-git-plain.colored {
+.devicon-git-plain-wordmark.color, .devicon-git-plain.color {
   color: rgb(243, 79, 41);
 }
 
@@ -361,12 +363,12 @@ h2, .text--xl {
   content: "";
 }
 
-.quote-section {
+.sección-cita {
   background-color: #FB3570;
   color: white;
 }
 
-.quote-icon {
+.ícono-cita {
   font-size: 5rem;
   margin-bottom: 20px;
 }
@@ -383,25 +385,27 @@ blockquote {
   margin-inline-end: 40px;
 }
 
-.quote {
-  font-size: 1.2rem;
+.cita {
+  font-size: 1.4rem;
   max-width: 800px;
   font-family: 'Quicksand';
 }
 
-.quote-author {
-  font-size: 1.69em;
+.autora-cita {
+  font-size: 2.3em;
+  font-family: 'Dancing Script';
+  font-weight: 900;
   color: white;
   margin-bottom: 0;
 }
 
-.project-filters {
+.filtro-programas {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
-.project-filter {
+.filtro-proyecto {
   font-size: 19px;
   font-family: 'Quicksand';
   padding: 15px 40px;
@@ -412,7 +416,7 @@ blockquote {
   align-items: center;
 }
 
-.projects {
+.proyectos {
   width: 100%;
 }
 
