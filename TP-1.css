@@ -9,15 +9,10 @@ html {
   box-sizing: border-box;
 }
 
-meta, title, link, head, .menu-icon {
-  display: none;
-}
-
 body {
-  font-size: 1em;
+  font-size: 16px;
   font-family: 'Montserrat', sans-serif;
-  color: #2e2e31;
-  display: block;
+  color: #222224;
 }
 
 html, body {
@@ -26,11 +21,9 @@ html, body {
 }
 
 header {
-  background-color: #fff;
+  background-color: rgb(248, 242, 242);
   padding: 25px 0;
   box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
-  position: relative;
-  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -50,7 +43,6 @@ div {
 }
 
 .menu-navegación {
-  font-size: 1;
   font-family: 'Quicksand';
   display: flex;
   margin: 0;
@@ -77,10 +69,6 @@ a {
   display: block;
 }
 
-a:-webkit-any-link {
-  cursor: pointer;
-}
-
 ul li, ol li {
   line-height: 1.4;
   list-style: none;
@@ -99,6 +87,10 @@ ul {
 li {
   display: list-item;
   text-align: -webkit-match-parent;
+}
+
+.fas fa-bars {
+  display: none;
 }
 
 button {
@@ -156,8 +148,6 @@ button {
   justify-content: space-between;
 }
 
-
-
 .información-sobre-mí {
   width: 100%;
   max-width: 500px;
@@ -201,7 +191,7 @@ h1 {
 }
 
 h1, h2, h3, h4, form legend {
-  color: black;
+  color: rgb(17, 17, 17);
   margin-bottom: 0.375em;
   line-height: 1.2;
 }
@@ -464,7 +454,6 @@ footer {
 
 .footer-nav-menu {
   display: flex;
-  margin: 0px;
 }
 
 .footer-nav-link {
@@ -514,7 +503,21 @@ footer {
   content: "\f0e0";
 }
 
+@media (max-width: 600px) {
+  .footer-nav-menu, .filtro-programas {
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .header-navegación {
+    display: none;
+  }
+
+  .fas fa-bars {
+    font-size: 100px;
+  }
+
+}
 
 
 
