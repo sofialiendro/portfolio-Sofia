@@ -58,6 +58,14 @@ div {
   border-radius: 100px;
 }
 
+.link-navegación:hover {
+  color: #FB3570;
+}
+
+.botón-coloreado:hover {
+  color: black;
+}
+
 a {
   text-decoration: none;
   color: #2e2e31;
@@ -242,7 +250,7 @@ h2 {
   margin-inline-end: 0px;
 }
 
-h2, .text--xl {
+h2 {
   font-size: 45px;
   font-weight: 900;
 }
@@ -395,6 +403,14 @@ blockquote {
   align-items: center;
 }
 
+.filtro-proyecto:hover {
+  color: #FB3570;
+}
+
+.botón-coloreado.filtro-proyecto:hover {
+  color: black;
+}
+
 .proyectos, .columna {
   width: 100%;
   max-width: 1100px;
@@ -434,6 +450,10 @@ footer {
   color: white;
 }
 
+.footer-nav-link:hover {
+  color: black;
+}
+
 .footer-social-links {
   display: flex;
   margin: 30px 0px;
@@ -443,6 +463,10 @@ footer {
 .ícono-redes {
   display: block;
   margin: 15px;
+}
+
+.fab:hover {
+  font-size: 50px;
 }
 
 .fa-github, .fa-linkedin, .fa-envelope {
