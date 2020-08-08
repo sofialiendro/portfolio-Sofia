@@ -28,11 +28,6 @@ header {
   justify-content: center;
 }
 
-.columna {
-  width: 100%;
-  max-width: 1100px;
-}
-
 div {
   display: block;
 }
@@ -121,7 +116,7 @@ button {
   font-family: "Font Awesome 5 Free";
 }
 
-.fa, .fab, .fad, .fal, .far, .fas {
+.fa, .fab, .fas {
   -webkit-font-smoothing: antialiased;
   display: inline-block;
   font-style: normal;
@@ -154,7 +149,6 @@ button {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  text-align: left;
 }
 
 .saludo {
@@ -190,7 +184,7 @@ h1 {
   display: block;
 }
 
-h1, h2, h3, h4, form legend {
+h1, h2 {
   color: rgb(17, 17, 17);
   margin-bottom: 0.375em;
   line-height: 1.2;
@@ -216,19 +210,17 @@ h1, h2, h3, h4, form legend {
   font-size: 18px;
 }
 
-.about-info {
-  width: 100%;
-  max-width: 500px;
+.sección-imagen-principal {
   display: flex;
 }
 
-.about-img {
-  width: 520px;
+.imagen-principal {
+  max-width: 520px;
 }
 
 img {
   width: 100%;
-  display: flex;
+  display: block;
 }
 
 .sección-habilidades {
@@ -276,7 +268,7 @@ h2, .text--xl {
 .habilidad {
   color: #2e2e31;
   background-color: #fff;
-  border: 1px solid #dddfe5;
+  border: 1px solid #e4e6ee;
   border-radius: 8px;
   width: 260px;
   margin: 10px;
@@ -360,18 +352,14 @@ h2, .text--xl {
 }
 
 .ícono-cita {
-  font-size: 5rem;
-  margin-bottom: 20px;
-}
-
-.fa-quote-right:before {
-  content: "\f10e";
+  padding-bottom: 20px;
+  font-size: 80px;
 }
 
 blockquote {
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
   margin-inline-start: 40px;
   margin-inline-end: 40px;
 }
@@ -407,17 +395,17 @@ blockquote {
   align-items: center;
 }
 
-.proyectos {
+.proyectos, .columna {
   width: 100%;
+  max-width: 1100px;
 }
 
-.project {
+.proyecto {
   width: calc(100% / 3 - (0.75em * 2));
   margin: 0.75em;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   padding: 20px;
-  overflow: hidden;
 }
 
 .project-name {
@@ -452,49 +440,23 @@ footer {
   padding-right: 50px;
 }
 
-.footer-social-item {
+.ícono-redes {
   display: block;
-  width: 2.7rem;
-  height: 2.7rem;
-  background-color: white;
-  border-radius: 50%;
-  font-size: 1.2rem;
-  line-height: 2.7rem;
-  margin: 10px;
-  text-align: center;
+  margin: 15px;
 }
 
-.footer-social-icon {
-  color:#FB3570;
-}
-
-
-.fab, .far {
-  font-weight: 400;
-}
-
-.fab {
-  font-family: "Font Awesome 5 Brands";
-}
-
-.fa-github-alt:before {
-  content: "\f113";
-}
-
-.fa-linkedin-in:before {
-  content: "\f0e1";
-}
-
-.fa-envelope:before {
-  content: "\f0e0";
+.fa-github, .fa-linkedin, .fa-envelope {
+  font-size: 40px;
+  color: white;
 }
 
 .última-frase-footer {
   font-family: 'Dancing Script';
   font-size: 25px;
+  text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 575.98px) {
   .footer-nav-menu, .filtro-programas {
     flex-direction: column;
     align-items: center;
@@ -513,13 +475,16 @@ footer {
   .contenido-principal{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    max-width: 600px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .información-sobre-mí {
-    text-align: center;
-    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
   }
 
   .footer-nav {
@@ -530,11 +495,23 @@ footer {
     padding: 5px;
   }
 
-  .about-img {
+  .imagen-principal {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
+  }
+
+  .habilidad {
+    max-width: 150px;
+  }
+
+  .proyecto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
   }
 
 }
