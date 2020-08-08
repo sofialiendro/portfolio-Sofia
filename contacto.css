@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@900&family=Overlock&family=Quicksand&family=Thasadith:wght@700&display=swap');
+
+body {
+  background-color: #f5608c;
+}
+
+.formulario {
+  width: 400px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.966);
+  padding: 30px;
+  border-radius: 19px;
+  font-size: 18px;
+  font-family: 'Quicksand';
+  font-weight: 600;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+.mi-nombre {
+  font-family: 'Dancing Script';
+  font-size: 30px;
+  text-align: center;
+  color: aliceblue;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  font-family: 'quicksand';
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; 
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
