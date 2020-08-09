@@ -4,7 +4,7 @@ Este es un proyecto realizado durante el curso de desarrollo web en ADA ITW.
 
 ### HTML5 - CSS3 - Diseño responsivo
 
-[Disponible aquí](https://sofialiendro.github.io/portfolio-Sofia)
+[Disponible aquí](https://sofialiendro.github.io/portfolio-Sofia) 
 
 ---
 
