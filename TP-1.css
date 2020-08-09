@@ -20,27 +20,13 @@ html, body {
   height: 100%;
 }
 
-header {
-  background-color: rgba(255, 255, 255, 0.966);
-  padding: 25px 0;
-  box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
-  display: flex;
-  justify-content: center;
-}
+
+
+/* Estilos compartidos */
+
 
 div {
   display: block;
-}
-
-.header-navegación {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.menu-navegación {
-  font-family: 'Quicksand';
-  display: flex;
-  margin: 0;
 }
 
 .item-navegación, .item-footer {
@@ -58,10 +44,6 @@ div {
   border-radius: 100px;
 }
 
-.link-navegación:hover {
-  color: #FB3570;
-}
-
 .botón-coloreado:hover {
   color: black;
 }
@@ -72,69 +54,8 @@ a {
   display: block;
 }
 
-ul li, ol li {
-  line-height: 1.4;
+ul li {
   list-style: none;
-}
-
-ul {
-  padding: 0;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-  list-style-type: disc;
-}
-
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
-}
-
-.fas.fa-bars {
-  display: none;
-}
-
-button {
-  border: 0;
-  background-color: transparent;
-  font-size: 1em;
-  font-family: 'Montserrat', sans-serif;
-  color: #2e2e31;
-  cursor: pointer;
-  appearance: button;
-  text-rendering: auto;
-  letter-spacing: normal;
-  word-spacing: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  text-align: center;
-  align-items: flex-start;
-  margin: 0em;
-  font: 400 13.3333px Arial;
-  padding: 1px 6px;
-}
-
-.fa, .fas {
-  font-weight: 900;
-}
-.fa, .far, .fas {
-  font-family: "Font Awesome 5 Free";
-}
-
-.fa, .fab, .fas {
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
-}
-
-.sección-sobre-mí {
-  min-height: calc(100vh - 90px);
 }
 
 .sección {
@@ -142,6 +63,85 @@ button {
   justify-content: center;
   padding: 110px 40px 130px;
   text-align: center;
+}
+
+h1, h2 {
+  color: rgb(17, 17, 17);
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  display: block;
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.grilla {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.estructura-principal {
+  width: 100%;
+  max-width: 1100px;
+}
+
+/* Estilos compartidos */
+
+
+
+/* Header */
+
+
+header {
+  background-color: rgba(255, 255, 255, 0.966);
+  padding: 25px 0;
+  box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
+  display: flex;
+  justify-content: center;
+}
+
+.header-navegación {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-navegación {
+  font-family: 'Quicksand';
+  display: flex;
+  margin: 0;
+}
+
+.link-navegación:hover {
+  color: #FB3570;
+}
+
+.fas.fa-bars {
+  display: none;
+}
+
+
+/* Header */
+
+
+
+/* Sobre mí */
+
+
+.sección-sobre-mí {
+  min-height: calc(100vh - 90px);
 }
 
 .contenido-principal {
@@ -166,15 +166,6 @@ button {
   font-weight: 800;
 }
 
-p {
-  line-height: 1.4;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
 .mi-nombre {
   margin-top: 0;
   margin-bottom: 5px;
@@ -187,15 +178,7 @@ p {
 h1 {
   font-size: 60px;
   font-weight: 900;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
   display: block;
-}
-
-h1, h2 {
-  color: rgb(17, 17, 17);
-  margin-bottom: 0.375em;
-  line-height: 1.2;
 }
 
 .descripción-sobre-mí {
@@ -226,33 +209,16 @@ h1, h2 {
   max-width: 520px;
 }
 
-img {
-  width: 100%;
-  display: block;
-}
+
+/* Sobre mí */
+
+
+
+/* Conocimientos */
+
 
 .sección-habilidades {
   background-color: #f6f7fb;
-}
-
-.contenido {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-h2 {
-  display: block;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-h2 {
-  font-size: 45px;
-  font-weight: 900;
 }
 
 .descripción-habilidades {
@@ -267,12 +233,6 @@ h2 {
   display: flex;
 }
 
-.grilla {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 40px;
-}
-
 .habilidad {
   color: #2e2e31;
   background-color: #fff;
@@ -285,75 +245,49 @@ h2 {
 }
 
 .ícono-habilidad {
-  font-size: 4.71em;
+  font-size: 75px;
   margin-top: 24px;
   margin-bottom: 20px;
   display: block;
 }
 
-[class*=" devicon-"], [class^="devicon-"] {
-  font-family: devicon;
-  speak-as: none;
-  font-style: normal;
-  font-weight: 400;
-  text-transform: none;
-  -webkit-font-smoothing: antialiased;
-  font-variant: normal;
-}
-
-.devicon-html5-plain::before {
-  content: "";
-}
-
-.devicon-html5-plain-wordmark.color, .devicon-html5-plain.color {
-  color: rgb(229, 77, 38);
-}
-
 .título-habilidad {
-  font-size: 1.25em;
+  font-size: 20px;
   font-weight: 900;
   font-family: 'Quicksand';
 }
 
-.devicon-css3-plain-wordmark.color, .devicon-css3-plain.color {
+.devicon-html5-plain.color {
+  color: rgb(229, 77, 38);
+}
+
+.devicon-css3-plain.color {
   color: rgb(61, 143, 198);
 }
 
-.devicon-css3-plain::before {
-  content: "";
-}
-
-.devicon-sass-original.color, .devicon-sass-plain-wordmark.color, .devicon-sass-plain.color {
+.devicon-sass-plain.color {
   color: rgb(204, 102, 153);
-}
-
-.devicon-sass-original::before, .devicon-sass-plain::before {
-  content: "";
 }
 
 .devicon-javascript-plain.color {
   color: rgb(240, 219, 79);
 }
 
-.devicon-javascript-plain::before {
-  content: "";
-}
-
-.devicon-react-original-wordmark.color, .devicon-react-original.color, .devicon-react-plain-wordmark.color, .devicon-react-plain.color {
+.devicon-react-plain.color {
   color: rgb(97, 218, 251);
 }
 
-.devicon-react-original::before, .devicon-react-plain::before {
-  content: "";
-}
-
-.devicon-git-plain-wordmark.color, .devicon-git-plain.color {
+.devicon-git-plain.color {
   color: rgb(243, 79, 41);
 }
 
-.devicon-git-plain::before {
-  content: "";
-}
+
+/* Conocimientos */
+
+
+
+/* Cita */
+
 
 .sección-cita {
   background-color: #FB3570;
@@ -365,32 +299,42 @@ h2 {
   font-size: 80px;
 }
 
-blockquote {
-  display: block;
-  margin-block-start: 16px;
-  margin-block-end: 16px;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-}
-
 .cita {
-  font-size: 1.4rem;
+  font-size: 21px;
   max-width: 800px;
   font-family: 'Quicksand';
 }
 
 .autora-cita {
-  font-size: 2.3em;
+  font-size: 36px;
   font-family: 'Dancing Script';
   font-weight: 900;
   color: white;
   margin-bottom: 0;
 }
 
+
+/* Cita */
+
+
+
+/* Proyectos */
+
+
 .filtro-programas {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+
+button {
+  background-color: transparent;
+  font-size: 16px;
+  color: #2e2e31;
+  cursor: pointer;
+  text-align: center;
+  align-items: flex-start;
+  border: 0;
 }
 
 .filtro-proyecto {
@@ -412,11 +356,6 @@ blockquote {
   color: black;
 }
 
-.estructura-principal {
-  width: 100%;
-  max-width: 1100px;
-}
-
 .proyecto {
   width: 300px;
   margin: 13px;
@@ -434,13 +373,20 @@ blockquote {
   flex-wrap: wrap;
 }
 
-
 .título-proyecto {
   font-weight: 600;
   margin-bottom: 20px;
   font-family: 'Quicksand';
   font-size: 17px;
 }
+
+
+/* Proyectos */
+
+
+
+/* Footer */
+
 
 footer {
   display: flex;
@@ -449,7 +395,7 @@ footer {
   align-items: center;
   background-color:#FB3570;
   color: white;
-  padding: 80px 20px ;
+  padding: 80px 20px;
   font-family: 'Quicksand';
 }
 
@@ -490,6 +436,11 @@ footer {
   font-size: 25px;
   text-align: center;
 }
+
+
+/* Footer */
+
+
 
 /* En celulares que no sean iphone la imagen se ve bien
 pero en los Iphone no sé porqué mi imagen principal se ve estirada,
@@ -552,7 +503,7 @@ será por el navegador Safari? */
 }
 
 
-@media (max-width: 900px) and (min-width: 601px)  {
+@media (max-width: 900px) and (min-width: 601px) {
 
   .contenido-principal{
     display: flex;
