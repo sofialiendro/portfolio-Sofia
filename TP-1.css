@@ -44,10 +44,6 @@ div {
   border-radius: 100px;
 }
 
-.botón-coloreado:hover {
-  color: black;
-}
-
 a {
   text-decoration: none;
   color: #2e2e31;
@@ -238,7 +234,7 @@ h1 {
   background-color: #fff;
   border: 1px solid #e4e6ee;
   border-radius: 8px;
-  width: 260px;
+  width: 300px;
   margin: 10px;
   padding: 30px;
   cursor: pointer;
@@ -352,7 +348,7 @@ button {
   color: #FB3570;
 }
 
-.botón-coloreado.filtro-proyecto:hover {
+.hover-negro:hover {
   color: black;
 }
 
@@ -415,6 +411,7 @@ footer {
   display: flex;
   margin: 30px 0px;
   padding-right: 50px;
+  height: 80px;
 }
 
 .ícono-redes {
@@ -441,12 +438,7 @@ footer {
 /* Footer */
 
 
-
-/* En celulares que no sean iphone la imagen se ve bien
-pero en los Iphone no sé porqué mi imagen principal se ve estirada,
-será por el navegador Safari? */
-
-@media (max-width: 600px) {
+@media (max-width: 651px) {
   .menu-footer, .filtro-programas {
     flex-direction: column;
     align-items: center;
@@ -482,14 +474,8 @@ será por el navegador Safari? */
   }
 
   .imagen-principal {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     width: 100%;
-  }
-
-  .habilidad {
-    max-width: 200px;
+    height: auto;
   }
 
   .proyecto {
@@ -500,10 +486,23 @@ será por el navegador Safari? */
     max-width: 100%;
   }
 
+  .habilidad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    max-width: 200px;
+  }
+
+  .sección {
+    padding: 110px 0;
+  }
+
 }
 
 
-@media (max-width: 900px) and (min-width: 601px) {
+@media (max-width: 900px) and (min-width: 650px) {
 
   .contenido-principal{
     display: flex;
@@ -525,6 +524,10 @@ será por el navegador Safari? */
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+  }
+
+  .sección {
+    padding: 110px 0;
   }
 
 }
