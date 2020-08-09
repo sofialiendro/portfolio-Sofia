@@ -43,11 +43,11 @@ div {
   margin: 0;
 }
 
-.item-navegación, .footer-nav-item {
+.item-navegación, .item-footer {
   margin: 0 15px;
 }
 
-.link-navegación, .footer-nav-link {
+.link-navegación, .link-footer {
   line-height: 2.5;
 }
 
@@ -412,7 +412,7 @@ blockquote {
   color: black;
 }
 
-.proyectos, .columna {
+.estructura-principal {
   width: 100%;
   max-width: 1100px;
 }
@@ -429,13 +429,13 @@ blockquote {
   display: flex;
   width: 100%;
   margin-top: 40px;
-  padding: 30px;
+  
   justify-content: center;
   flex-wrap: wrap;
 }
 
 
-.project-name {
+.título-proyecto {
   font-weight: 600;
   margin-bottom: 20px;
   font-family: 'Quicksand';
@@ -453,19 +453,19 @@ footer {
   font-family: 'Quicksand';
 }
 
-.footer-nav-menu {
+.menu-footer {
   display: flex;
 }
 
-.footer-nav-link {
+.link-footer {
   color: white;
 }
 
-.footer-nav-link:hover {
+.link-footer:hover {
   color: black;
 }
 
-.footer-social-links {
+.links-redes {
   display: flex;
   margin: 30px 0px;
   padding-right: 50px;
@@ -496,7 +496,7 @@ pero en los Iphone no sé porqué mi imagen principal se ve estirada,
 será por el navegador Safari? */
 
 @media (max-width: 600px) {
-  .footer-nav-menu, .filtro-programas {
+  .menu-footer, .filtro-programas {
     flex-direction: column;
     align-items: center;
   }
@@ -526,7 +526,7 @@ será por el navegador Safari? */
     margin-bottom: 40px;
   }
 
-  .footer-nav {
+  .footer-navegación {
     display: none;
   }
 
@@ -551,32 +551,8 @@ será por el navegador Safari? */
 
 }
 
-@media (max-width: 791px) and (min-width:601px) {
-  .contenido-principal {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .información-sobre-mí {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 40px;
-  }
-
-  .proyecto {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-
-}
-
-@media (max-width: 900px) and (min-width: 792px)  {
+@media (max-width: 900px) and (min-width: 601px)  {
 
   .contenido-principal{
     display: flex;
