@@ -281,6 +281,7 @@ h2 {
   width: 260px;
   margin: 10px;
   padding: 30px;
+  cursor: pointer;
 }
 
 .ícono-habilidad {
@@ -417,12 +418,22 @@ blockquote {
 }
 
 .proyecto {
-  width: calc(100% / 3 - (0.75em * 2));
-  margin: 0.75em;
+  width: 300px;
+  margin: 13px;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   padding: 20px;
 }
+
+.grilla.proyectos {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+  padding: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 
 .project-name {
   font-weight: 600;
@@ -438,7 +449,7 @@ footer {
   align-items: center;
   background-color:#FB3570;
   color: white;
-  padding: 80px 20px 60px;
+  padding: 80px 20px ;
   font-family: 'Quicksand';
 }
 
@@ -480,14 +491,14 @@ footer {
   text-align: center;
 }
 
+/* En celulares que no sean iphone la imagen se ve bien
+pero en los Iphone no sé porqué mi imagen principal se ve estirada,
+será por el navegador Safari? */
+
 @media (max-width: 600px) {
   .footer-nav-menu, .filtro-programas {
     flex-direction: column;
     align-items: center;
-  }
-
-  body {
-    max-width: 520px;
   }
 
   .header-navegación {
@@ -519,10 +530,6 @@ footer {
     display: none;
   }
 
-  .header {
-    padding: 5px;
-  }
-
   .imagen-principal {
     display: flex;
     justify-content: center;
@@ -531,7 +538,7 @@ footer {
   }
 
   .habilidad {
-    max-width: 150px;
+    max-width: 200px;
   }
 
   .proyecto {
@@ -544,7 +551,57 @@ footer {
 
 }
 
-@media (max-width: 575.98px)
+@media (max-width: 791px) and (min-width:601px) {
+  .contenido-principal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .información-sobre-mí {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .proyecto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 900px) and (min-width: 792px)  {
+
+  .contenido-principal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .información-sobre-mí {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .proyecto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
 
 
 
