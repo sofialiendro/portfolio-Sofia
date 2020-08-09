@@ -203,6 +203,7 @@ h1 {
 
 .imagen-principal {
   max-width: 520px;
+  height: auto;
 }
 
 
