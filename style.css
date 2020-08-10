@@ -202,6 +202,9 @@ h1 {
   height: auto;
 }
 
+.sección-imagen-principal {
+  align-items: flex-start;
+}
 
 /* Sobre mí */
 
