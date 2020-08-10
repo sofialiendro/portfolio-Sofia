@@ -22,7 +22,7 @@ html, body {
 
 
 
-/* Estilos compartidos */
+/* Comienzo Estilos compartidos */
 
 
 div {
@@ -94,11 +94,11 @@ h2 {
   max-width: 1100px;
 }
 
-/* Estilos compartidos */
+/* Fin Estilos compartidos */
 
 
 
-/* Header */
+/* Comienzo Header */
 
 
 header {
@@ -129,11 +129,11 @@ header {
 }
 
 
-/* Header */
+/* Fin Header */
 
 
 
-/* Sobre mí */
+/* Comienzo Sobre mí */
 
 
 .sección-sobre-mí {
@@ -206,11 +206,11 @@ h1 {
   align-items: flex-start;
 }
 
-/* Sobre mí */
+/* Fin Sobre mí */
 
 
 
-/* Conocimientos */
+/* Comienzo Conocimientos */
 
 
 .sección-habilidades {
@@ -277,11 +277,11 @@ h1 {
 }
 
 
-/* Conocimientos */
+/* Fin Conocimientos */
 
 
 
-/* Cita */
+/* Comienzo Cita */
 
 
 .sección-cita {
@@ -309,11 +309,11 @@ h1 {
 }
 
 
-/* Cita */
+/* Fin Cita */
 
 
 
-/* Proyectos */
+/* Comienzo Proyectos */
 
 
 .filtro-programas {
@@ -380,11 +380,11 @@ button {
 }
 
 
-/* Proyectos */
+/* Fin Proyectos */
 
 
 
-/* Footer */
+/* Comienzo Footer */
 
 
 footer {
@@ -438,8 +438,11 @@ footer {
 }
 
 
-/* Footer */
+/* Fin Footer */
 
+
+
+/* Comienzo Responsive */
 
 
 @media (max-width: 651px) {
@@ -537,11 +540,4 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
+/* Fin Responsive */
