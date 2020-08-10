@@ -197,10 +197,6 @@ h1 {
   font-size: 18px;
 }
 
-.sección-imagen-principal {
-  display: flex;
-}
-
 .imagen-principal {
   max-width: 520px;
   height: auto;
