@@ -444,7 +444,8 @@ footer {
 
 /* Comienzo Responsive */
 
-
+/* Quise organizar el código de las media query 
+por sección, pero se me rompía */
 @media (max-width: 651px) {
   .menu-footer, .filtro-programas {
     flex-direction: column;
