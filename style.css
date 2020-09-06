@@ -351,6 +351,12 @@ button {
   color: black;
 }
 
+
+/* es porque cada imagen tiene una altura diferente. 
+podemos dividir la tarjeta en 2 divs y darle un tamaño a cada uno de esos divs 
+(o flex:1!) para que
+los titulos esten siempre alinedos  */
+
 /* No me salió alinear los títulos de los proyectos!
 Tampoco funcionaba poniéndoles una altura fija */
 .proyecto {
