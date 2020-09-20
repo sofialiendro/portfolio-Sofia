@@ -107,6 +107,41 @@ header {
   box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+
+
+/* .fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+} */
+
+.menu-responsive {
+  background-color: rgba(255, 255, 255, 0.966);
+  box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
+  padding: 25px 0;
+  position: absolute;
+  transform: translateY(-99.2px);
+  transition: 1s;
+  width: 100%;
+  margin: 10;
+  font-family: "Quicksand";
+}
+
+.contenedor-hamburguesa {
+  z-index: 1;
+  
+}
+
+.ul-menu {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
 
 .header-navegación {
@@ -441,6 +476,16 @@ footer {
 
 /* Fin Footer */
 
+/* JS */
+
+.no-mostrar-menu {
+  transform: translateY(0);
+  position: relative;
+}
+
+.no-mostrar {
+  display: none;
+}
 
 
 /* Comienzo Responsive */
