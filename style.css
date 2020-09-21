@@ -125,16 +125,17 @@ header {
   box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
   padding: 25px 0;
   position: absolute;
-  transform: translateY(-99.2px);
+  transform: translateY(-160px);
   transition: 1s;
   width: 100%;
   margin: 10;
   font-family: "Quicksand";
-}
-
-.contenedor-hamburguesa {
   z-index: 1;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  height: 150px;
 }
 
 .ul-menu {
@@ -478,14 +479,7 @@ footer {
 
 /* JS */
 
-.no-mostrar-menu {
-  transform: translateY(0);
-  position: relative;
-}
 
-.no-mostrar {
-  display: none;
-}
 
 
 /* Comienzo Responsive */
@@ -553,6 +547,15 @@ por sección, pero se me rompía */
     padding: 110px 0;
   }
 
+  .mostrar-menu {
+    transform: translateY(0);
+    position: relative;
+  }
+  
+  .no-mostrar {
+    display: none;
+  }
+
 }
 
 
@@ -582,6 +585,10 @@ por sección, pero se me rompía */
 
   .sección {
     padding: 110px 0;
+  }
+
+  .menu-responsive {
+    display: none;
   }
 
 }
