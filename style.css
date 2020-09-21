@@ -554,6 +554,7 @@ por sección, pero se me rompía */
   
   .no-mostrar {
     display: none;
+    margin: 5;
   }
 
 }
@@ -589,6 +590,7 @@ por sección, pero se me rompía */
 
   .menu-responsive {
     display: none;
+
   }
 
 }
