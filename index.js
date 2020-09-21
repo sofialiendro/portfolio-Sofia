@@ -7,8 +7,3 @@ hamburguesa.onclick = () => {
     menuResponsive.classList.toggle("mostrar-menu")
 }
 
-for (let link of links) {
-    link.onclick = () => {
-      hamburguesa.onclick();
-    };
-}
