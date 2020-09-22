@@ -479,6 +479,9 @@ footer {
 
 /* JS */
 
+.no-mostrar {
+  display: none;
+}
 
 
 
@@ -552,10 +555,7 @@ por sección, pero se me rompía */
     position: relative;
   }
   
-  .no-mostrar {
-    display: none;
-    margin: 5;
-  }
+
 
 }
 
