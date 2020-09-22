@@ -479,11 +479,6 @@ footer {
 
 /* JS */
 
-.no-mostrar {
-  display: none;
-}
-
-
 
 /* Comienzo Responsive */
 
@@ -555,6 +550,9 @@ por sección, pero se me rompía */
     position: relative;
   }
   
+  .no-mostrar {
+    display: none;
+  }
 
 
 }
