@@ -479,6 +479,9 @@ footer {
 
 /* JS */
 
+.no-mostrar {
+  display: none;
+}
 
 /* Comienzo Responsive */
 
