@@ -125,7 +125,7 @@ header {
   box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
   padding: 25px 0;
   position: absolute;
-  transform: translateY(-160px);
+  transform: translateY(-180px);
   transition: 1s;
   width: 100%;
   margin: 10;
@@ -135,14 +135,17 @@ header {
   justify-content: center;
   align-items: center;
   top: 0;
-  height: 150px;
+  height: 170px;
+}
+
+.link {
+  margin: 0px;
 }
 
 .ul-menu {
-  display: flex;
-  padding-left: 0;
-  margin-bottom: 0;
   list-style: none;
+  text-align: center;
+  padding: 0;
 }
 
 .header-navegación {
